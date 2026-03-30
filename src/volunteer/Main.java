@@ -1,16 +1,14 @@
 package volunteer;
-
 /*
- Main class to run the program
+ Entry point of the program.
+ This class starts the Volunteer Coordination System.
  */
 public class Main {
 
     public static void main(String[] args) {
-
-        VolunteerCoordinationSystem system =
-                new VolunteerCoordinationSystem();
-
+        // Create system object
+        VolunteerCoordinationSystem system = new VolunteerCoordinationSystem();
+        // Start the system
         system.startSystem();
-
     }
 }
